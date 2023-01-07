@@ -107,7 +107,7 @@
 /* section3 */
 
 .section3 {
-    background-image: url(/images/watch.png),url(/images/gradient1.png),linear-gradient(90deg, #36a0f7 0%, rgba(141, 194, 238, 0) 100%);
+    background-image: url(/images/watch.png), url(/images/gradient1.png), linear-gradient(90deg, #36a0f7 0%, rgba(141, 194, 238, 0) 100%);
     width: 900px;
     height: 200px;
     margin-left: 250px;
@@ -127,10 +127,80 @@
 .box button {
     margin-left: 40px;
     text-align: center;
-    background-color: rgb(252, 82, 20);
+    background-color: rgb(108, 219, 236);
     border: none;
     border-radius: 8px;
     height: 40px;
     width: 90px;
+    color: whitesmoke;
+}
+
+/* footer */
+
+/* footer-main1 */
+.footer-main1 {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-text {
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.footer-text p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-text h6 {
+    padding: 5px 0px;
+}
+
+.footer-img {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+
+.footer-img img {
+    padding: 5px;
+}
+
+/* footer-main2 */
+
+.footer-main2 {
+    text-align: left;
+    margin-left: 200px;
+    background-color: black;
+}
+
+.footer-main2 p {
+    color: whitesmoke;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-mail {
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-main2 button{
+    margin-right: 80px;
+    background-color: rgb(62, 42, 240);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
     color: whitesmoke;
 }
