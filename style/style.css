@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+
+.header-banner {
+    background-image: url(/images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-color: rgb(196, 221, 245);
+    background-blend-mode: multiply;
+    padding-top: 260px;
+    padding-right: 100px;
+}
+
+.header-banner h1 {
+    text-align: right;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.header-banner p {
+    text-align: right;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact-button{
+    text-align: right;
+}
+.header-button {
+    text-align: center;
+    background-color: rgb(252, 82, 20);
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 90px;
+    color: whitesmoke;
+}
