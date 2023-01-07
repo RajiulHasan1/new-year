@@ -8,7 +8,7 @@
 /* header */
 
 .header-banner {
-    background-image: url(./images/banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -107,7 +107,7 @@
 /* section3 */
 
 .section3 {
-    background-image: url(./images/watch.png), url(./images/gradient1.png), linear-gradient(90deg, #36a0f7 0%, rgba(141, 194, 238, 0) 100%);
+    background-image: url(../images/watch.png), url(../images/gradient1.png), linear-gradient(90deg, #36a0f7 0%, rgba(141, 194, 238, 0) 100%);
     width: 900px;
     height: 200px;
     margin-left: 250px;
